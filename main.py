@@ -26,7 +26,7 @@ for question in questions:
     
     if(answer == question[5]):
         print("Correct!\n")
-        prize = prize + 1000
+        prize = prize + 2000
         print(f"Congratulations! You have won {prize}\n")
     else:
         print("Wrong!\n")
